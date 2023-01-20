@@ -1,0 +1,1 @@
+$(document).ready((function(){var t=window.localStorage.getItem("product-list");t=(t=null===t||""===t?[]:t).length>0?JSON.parse(t):[];for(var n=0,o=0;o<t.length;o++)n+=t[o].count;$("#cart-count").html(n)}));
